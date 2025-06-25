@@ -1,0 +1,29 @@
+{
+    "name": "shakil/laravel-csv-database-table-export",
+    "description": "export database table into csv format",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Shakil\\CsvDatabaseTableExport\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Syed Mahbubur Rahman",
+            "email": "shakilict1@yahoo.com"
+        }
+    ],
+    "require": {
+      "php": "^8.0",
+      "illuminate/support": "^11.0",
+      "league/csv": "^9.0"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Shakil\\CsvDatabaseTableExport\\CsvExportServiceProvider"
+        ]
+      }
+    }
+}
