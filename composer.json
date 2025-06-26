@@ -1,5 +1,5 @@
 {
-    "name": "shakil/laravel-csv-database-table-export",
+    "name": "shakilmahbub/laravel-csv-database-table-export",
     "description": "export database table into csv format",
     "type": "library",
     "license": "MIT",
